@@ -1,0 +1,376 @@
+
+  body{
+    background-color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    font-size:-arge;
+}
+
+blogpage{
+
+    max-width: 1400px;
+}
+header{
+   text-align: center;
+   margin-top: 3%;
+}
+
+.date{
+    color: gray;
+}
+
+h3{
+margin-left: 2%;
+
+}
+
+p{
+
+margin-left: 2%;
+margin-right: 2%;
+text-align: justify;
+}
+
+ /* .read-more-button{
+    order: 1;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    font-size:larger;
+    background-color: aliceblue;
+    border-radius: 1%;
+    border-color: rgb(197, 195, 222);
+    
+   
+} */
+
+/* .read-more-button:hover{
+    background-color: rgb(177, 176, 176);
+}
+
+
+.comment{
+    /* order: 2; }*/
+
+
+.box-comment0{
+    order: 3;
+    color: white;
+    background-color: black;
+    font-size: larger;
+    
+}  
+
+.buttonrow{
+    margin-left: 2%;
+    margin-bottom: 3%;
+    font-size:larger;
+    background-color: aliceblue;
+    border-radius: 1%;
+    border-color: rgb(197, 195, 222);
+
+}
+
+.read-more-button:hover{
+    background-color: rgb(177, 176, 176);
+}
+
+.commentrow{
+    margin-right: 2%;
+    margin-bottom: 3%;
+    font-size:larger;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;
+}
+
+.buttonrow,
+.commentrow{
+    display: inline-block;
+}
+
+.flex-element{
+    background-color: aliceblue;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    
+    
+}
+
+.flex-elementtitleH{
+    justify-content: center;
+    background-color: aliceblue;
+    margin-bottom: 3%;
+    margin-top: auto;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+}
+.flex-elementtitleH img{
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.flex-elemententry{
+    justify-content: center;
+    background-color: aliceblue;
+    margin-bottom: 3%;
+    margin-top: auto;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+}
+
+.flex-elemententry img{
+    align-self: center;
+    width: 100%;
+    height: auto;
+ }
+ 
+.flex-elementname{
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: auto;
+    background-color: aliceblue;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+    padding-bottom: 2%;
+}
+
+.flex-elementname img{
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.flex-elementposts{
+    background-color: azure;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+    
+}
+h4{
+    margin-left: 2%;
+    margin-top: 2%;
+   
+}
+
+
+.box-elementlist1{
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-color: rgb(226, 233, 244);
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+    list-style: none;
+        
+}
+.box-elementlist1:hover{
+    background-color: rgb(207, 225, 248);
+}
+
+.box-elementlist1 img{
+    align-self: center;
+    width: 5%;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 0.5%;
+     
+}
+
+.lorem{
+    margin-left: 2%;
+}
+
+.lorem, .box-elementlist1 img {
+    display: inline-block;
+
+}
+
+
+.flex-elementtag{
+    background-color: azure;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+}
+
+/* .box-elementtag1{
+    background-color: black;
+    margin-left: 2%;
+    width: 9%;
+    height: 9%;
+    font-size:auto;
+    text-align: center;
+    color: white;
+} */
+
+.box-elementtag2{
+    background-color: rgb(229, 229, 229);
+    margin-left: 2%;
+    width: 9%;
+    height: 9%;
+    font-size:auto;
+    text-align: center;
+    color: black;
+}
+
+/* .box-elementtag1, */
+.box-elementtag2{
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.flex-elementfooter{
+    background-color: gray;
+    margin-left: 2%;
+    margin-right: 2%;
+   
+}
+
+.previous-button{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    font-size:larger;
+    background-color: rgb(54, 56, 58);
+    color: rgb(181, 180, 180);
+    border-radius: 1%;
+    border-color: black;
+}
+
+.previous-button:hover{
+    background-color: rgb(177, 176, 176);
+    color: gray;
+}
+
+.next-button{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    font-size:larger;
+    color: white;
+    background-color: black;
+    border-radius: 0%;
+ 
+
+}
+
+.next-button:hover{
+    background-color: rgb(221, 219, 219);
+    color: black;
+}
+
+h5{
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    
+}
+
+/* .box-elementtag3{
+    background-color: black;
+    margin-left: 2%;
+    width: 15%;
+    height: 9%;
+    font-size:auto;
+    text-align: center;
+    color: white;
+}
+
+h2, .box-elementtag3{
+    display: inline-block;
+} */
+
+@media only screen and (max-width: 600px) {
+    .box-elementtag2{
+    background-color: rgb(229, 229, 229);
+    margin-left: 2%;
+    width: 30%;
+    height: 9%;
+    font-size: initial;
+    text-align: center;
+    color: black;
+    POSITION: relative;}
+   
+  }
+
+  @media only screen and (max-width: 600px) {
+    .box-elementtag3{
+    background-color: rgb(229, 229, 229);
+    margin-left: 2%;
+    width: 30%;
+    height: 9%;
+    font-size: initial;
+    text-align: center;
+    color: black;
+    POSITION: relative;}
+   
+  }
+
+  h2, .box-elementtag3{
+    display: inline-block;
+  }
+
+  .flex-container {
+    display: block;
+  }
+  
+  .flex-elementtitleH,
+  .flex-elemententry {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+  }
+
+  .flex-container {
+    display: block;
+  }
+  
+  .flex-elementname,
+  .flex-elementposts,
+  .flex-elementtag {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-container{
+    flex: 1;
+  }
+ 
+
+  @media only screen and (max-width: 600px) {
+    .commentrow{
+        margin-right: 2%;
+        margin-top: 1%;
+        font-size:small;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .previous-button, .next-button{
+      
+        margin-top: 1%;
+        font-size:small;
+    }
+  }
